@@ -251,8 +251,9 @@ docutils==0.16 \
     #   sphinx
     #   sphinx-rtd-theme
     #   sphinx-tabs
-envoy.abstract.command==0.0.3 \
-    --hash=sha256:4b7b15c91bea1f2eb7c2e8e35f95cd9437e1c8f151adc093bf7858fc85d48221
+envoy.abstract.command==0.0.4 \
+    --hash=sha256:becc9ea77cd14aea6fae678b314bf371b9965045d928835e1dae3389987cf454 \
+    --hash=sha256:fbd68664e986ff2d0070da83bed6a408274abe91da0587f951d799170c11a8d4
     # via
     #   envoy.base.runner
     #   envoy.distribution.release
