@@ -249,9 +249,9 @@ deprecated==1.2.13 \
     --hash=sha256:43ac5335da90c31c24ba028af536a91d41d53f9e6901ddb021bcc572ce44e38d \
     --hash=sha256:64756e3e14c8c5eea9795d93c524551432a0be75629f8f29e67ab8caf076c76d
     # via pygithub
-docutils==0.16 \
-    --hash=sha256:0c5b78adfbf7762415433f5515cd5c9e762339e23369dbe8000d84a4bf4ab3af \
-    --hash=sha256:c2de3a60e9e7d07be26b7f2b00ca0309c207e06c100f9cc2a94931fc75a478fc
+docutils==0.19 \
+    --hash=sha256:33995a6753c30b7f577febfc2c50411fec6aac7f7ffeb7c4cfe5991072dcf9e6 \
+    --hash=sha256:5e1de4d849fee02c63b040a4a3fd567f4ab104defd8a5511fbbc24a8a017efbc
     # via
     #   envoy.docs.sphinx-runner
     #   sphinx
@@ -263,8 +263,9 @@ envoy.abstract.command==0.0.4 \
     # via
     #   envoy.base.runner
     #   envoy.distribution.release
-envoy.base.checker==0.0.2 \
-    --hash=sha256:2ac81efa20fd01fff644ff7dc7fadeac1c3e4dbb6210881ac7a7919ec0e048d8
+envoy.base.checker==0.1.2 \
+    --hash=sha256:81cb8d4c98b507661ff65f05468796d4627b2f0f9fcd8473387e8d5fd3291800 \
+    --hash=sha256:830bb7a5ac3e81a4c789388edaf645aa7e62c0572cc49ce8dddc15775872f614
     # via
     #   -r requirements.in
     #   envoy.code-format.python-check
@@ -506,9 +507,9 @@ multidict==6.0.2 \
     # via
     #   aiohttp
     #   yarl
-packaging==21.0 \
-    --hash=sha256:7dc96269f53a4ccec5c0670940a4281106dd0bb343f47b7471f779df49c2fbe7 \
-    --hash=sha256:c86254f9220d55e31cc94d69bade760f0847da8000def4dfe1c6b872fd14ff14
+packaging==21.3 \
+    --hash=sha256:dd47c42927d89ab911e606518907cc2d3a1f38bbd026385970643f9c5b8ecfeb \
+    --hash=sha256:ef103e05f519cdc783ae24ea4e2e0f508a9c99b2d4969652eed6a2e1ea5bd522
     # via
     #   envoy.github.release
     #   pytest
