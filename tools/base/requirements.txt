@@ -282,8 +282,9 @@ envoy.abstract.command==0.0.4 \
     # via
     #   envoy.base.runner
     #   envoy.distribution.release
-envoy.base.checker==0.0.2 \
-    --hash=sha256:2ac81efa20fd01fff644ff7dc7fadeac1c3e4dbb6210881ac7a7919ec0e048d8
+envoy.base.checker==0.1.2 \
+    --hash=sha256:81cb8d4c98b507661ff65f05468796d4627b2f0f9fcd8473387e8d5fd3291800 \
+    --hash=sha256:830bb7a5ac3e81a4c789388edaf645aa7e62c0572cc49ce8dddc15775872f614
     # via
     #   -r requirements.in
     #   envoy.code-format.python-check
