@@ -347,8 +347,9 @@ envoy.github.abstract==0.0.16 \
 envoy.github.release==0.0.8 \
     --hash=sha256:fbc4354030137eb565b8c4d679965e4ef60b01de0c09310441836e592ca0cd19
     # via envoy.distribution.release
-envoy.gpg.identity==0.0.2 \
-    --hash=sha256:7d32ff9133e00b9974b4dabd2512b4872b091b8c5069d0112240dcc1a56bc406
+envoy.gpg.identity==0.1.0 \
+    --hash=sha256:1df6989e1a6a3a9f5809ac056829b840f57326d41ae1181db415a722216bff48 \
+    --hash=sha256:9e11625e25ad6a031f1c85c57067673f50c0427b0e71ef0a7e926ce77ebb75a9
     # via envoy.gpg.sign
 envoy.gpg.sign==0.0.3 \
     --hash=sha256:31667931f5d7ff05fd809b89748f277511486311c777652af4cb8889bd641049
