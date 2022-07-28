@@ -326,8 +326,9 @@ envoy.dependency.pip-check==0.0.4 \
 envoy.distribution.distrotest==0.0.3 \
     --hash=sha256:c094adbd959eb1336f93afc00aedb7ee4e68e8252e2365be816a6f9ede8a3de7
     # via envoy.distribution.verify
-envoy.distribution.release==0.0.4 \
-    --hash=sha256:41037e0488f0593ce5173739fe0cd1b45a4775f5a47738b85d9d04024ca241a2
+envoy.distribution.release==0.0.8 \
+    --hash=sha256:60c20f5b74780c46e0d813d1a7fc1af53805cf2c51139badbee39374fcf6c5a9 \
+    --hash=sha256:7d54b0364d9f1bb22d81f1280822eceb96ff400566838fe37579f49d8f55be24
     # via -r requirements.in
 envoy.distribution.verify==0.0.2 \
     --hash=sha256:ae59134085de50203edf51c243dbf3301cbe5550db29f0ec6f9ea1c3b82fee1c
