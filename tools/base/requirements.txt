@@ -43,8 +43,9 @@ aio-stream==0.0.2 \
 aio-subprocess==0.0.4 \
     --hash=sha256:fd504a7c02423c40fde19ad87b62932b9eaa091f5a22d26b89b452059a728750
     # via -r requirements.in
-aio-tasks==0.0.4 \
-    --hash=sha256:9abd4b0881edb292c4f91a2f63b1dea7a9829a4bd4e8440225a1a412a90461fc
+aio-tasks==0.0.5 \
+    --hash=sha256:a2225785b6f3ecbe0ca879a2a1c0314440c7a3606dd92b2731db547a60b5ed5e \
+    --hash=sha256:dae64f6d72b07b1f6d68dfa991670572b1939e9585f10ac64f5367c6fd5b4df2
     # via
     #   -r requirements.in
     #   envoy-github-abstract
