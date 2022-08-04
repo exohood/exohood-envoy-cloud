@@ -337,9 +337,9 @@ envoy-base-runner==0.1.0 \
     #   envoy-docs-sphinx-runner
     #   envoy-github-abstract
     #   envoy-gpg-sign
-envoy-base-utils==0.2.8 \
-    --hash=sha256:9cbd651a71a696fba26b0b2bd78c0f6581e6ee5bfa61479361783d267ec88ce5 \
-    --hash=sha256:d13ddc807b01939716cbc2bf94d2cebc289fdb1c23be057c2482053b281971b2
+envoy-base-utils==0.3.6 \
+    --hash=sha256:09bab1310ffd133250e484201244eb11ab019ac36362b14f913ce91ecb023cb3 \
+    --hash=sha256:ad699b94fd7c63088266a5cbc74ff732e653e586b5c1b9002351080c7d850c09
     # via
     #   -r requirements.in
     #   envoy-dependency-pip-check
@@ -685,6 +685,22 @@ ply==3.11 \
     --hash=sha256:00c7c1aaa88358b9c765b6d3000c6eec0ba42abca5351b095321aef446081da3 \
     --hash=sha256:096f9b8350b65ebd2fd1346b12452efe5b9607f7482813ffca50c22722a807ce
     # via -r requirements.in
+protobuf==4.21.4 \
+    --hash=sha256:0275902f8292039d4a022319d3f86e8b231ac4c51d7be4cb797890fb78c16b85 \
+    --hash=sha256:142ef5d73d6cd1bd8ab539d7d73c3722f31d33e64914e01bb91439cfcef11a9f \
+    --hash=sha256:2ea8c841cc6422aea07d0f4f71f0e5e6e130de9a4b6c31a53b9d2a41a75f2d54 \
+    --hash=sha256:47b7cf3e542fd50a3a7c24d0da13451bc362a32c0a9b905714942ea8cf35fa11 \
+    --hash=sha256:5783dc0d6edae631145337fabb18503b4f77274f94cdd22a4b26b9fe5029e718 \
+    --hash=sha256:5b95c5f515334dd3a811762e3c588b469bf39d4ee7b7f47ac1e0c41dc73809f7 \
+    --hash=sha256:5e47947fbfefd5a1bdc7c28eea1d197ea6dba5812789c2429667831a55ef71b7 \
+    --hash=sha256:7e51f6244e53e936abadf624ab3a0f06dc106b27473997374fbb34e6b2eb1e60 \
+    --hash=sha256:a8119c029c60cf29b7eea5a9f56648482388e874611243f41cd10aff0a0e5461 \
+    --hash=sha256:adeccfbffbf4c9d1e77da86dc995d76c837d01387e412066cc803ad037000892 \
+    --hash=sha256:cb50d93ef748671b7e2537658869e00aaa8175d717d8e73a23fcd58842883229 \
+    --hash=sha256:d9b0398ff68017015ec2a37fb0ab390363a654362b15ca2e4543d3c82587768f \
+    --hash=sha256:e113f3d1629cebc911b107ce704f1a17d7e1589efef5c498e202bd47df223955 \
+    --hash=sha256:fd62b6eda64e199b5da651d6be42af2aa8e30805961af1fc5f70292affca78e3
+    # via envoy-base-utils
 py==1.10.0 \
     --hash=sha256:21b81bda15b66ef5e1a777a21c4dcd9c20ad3efd0b3f817e7a809035269e1bd3 \
     --hash=sha256:3b80836aa6d1feeaa108e046da6423ab8f6ceda6468545ae8d02d9d58d18818a
