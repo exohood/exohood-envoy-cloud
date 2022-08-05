@@ -11,6 +11,7 @@ abstracts==0.0.12 \
     #   aio-core
     #   aio-run-runner
     #   envoy-abstract-command
+    #   envoy-base-checker
     #   envoy-base-runner
     #   envoy-base-utils
     #   envoy-code-format-python-check
@@ -322,8 +323,9 @@ envoy-abstract-command==0.0.3 \
     # via
     #   envoy-base-runner
     #   envoy-distribution-release
-envoy-base-checker==0.0.2 \
-    --hash=sha256:2ac81efa20fd01fff644ff7dc7fadeac1c3e4dbb6210881ac7a7919ec0e048d8
+envoy-base-checker==0.1.1 \
+    --hash=sha256:58fb4b78e0df5d0d400d47cc6326c739a9f5e759bd43b90f35612dcf8a3cd838 \
+    --hash=sha256:a7db6d2a9a3178c95102eb177f41208de677b803b9fcfb6fca603a5a1997be01
     # via
     #   -r requirements.in
     #   envoy-distribution-distrotest
