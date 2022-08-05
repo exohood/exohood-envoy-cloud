@@ -67,6 +67,7 @@ aiodocker==0.21.0 \
     --hash=sha256:6fe00135bb7dc40a407669d3157ecdfd856f3737d939df54f40a479d40cf7bdc
     # via
     #   envoy-distribution-distrotest
+    #   envoy-distribution-verify
     #   envoy-docker-utils
 aiofiles==0.7.0 \
     --hash=sha256:a1c4fc9b2ff81568c83e21392a82f344ea9d23da906e4f6a52662764545e19d4 \
@@ -345,6 +346,7 @@ envoy-base-utils==0.3.6 \
     #   -r requirements.in
     #   envoy-dependency-pip-check
     #   envoy-distribution-distrotest
+    #   envoy-distribution-verify
     #   envoy-docs-sphinx-runner
     #   envoy-github-release
     #   envoy-gpg-sign
@@ -362,8 +364,9 @@ envoy-distribution-distrotest==0.0.3 \
 envoy-distribution-release==0.0.4 \
     --hash=sha256:41037e0488f0593ce5173739fe0cd1b45a4775f5a47738b85d9d04024ca241a2
     # via -r requirements.in
-envoy-distribution-verify==0.0.2 \
-    --hash=sha256:ae59134085de50203edf51c243dbf3301cbe5550db29f0ec6f9ea1c3b82fee1c
+envoy-distribution-verify==0.0.4 \
+    --hash=sha256:927f10775fa617505d3d55e4e9aff8f881d51ffcda2d8637f0619218c56cd069 \
+    --hash=sha256:96d60fc29ad7bdc3e26721df7dcaf1a920569e8cd5452554d7e4b76a122f24b3
     # via -r requirements.in
 envoy-docker-utils==0.0.2 \
     --hash=sha256:a12cb57f0b6e204d646cbf94f927b3a8f5a27ed15f60d0576176584ec16a4b76
