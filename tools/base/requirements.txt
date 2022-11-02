@@ -875,9 +875,9 @@ sphinx-copybutton==0.5.0 \
     # via
     #   -r requirements.in
     #   envoy-docs-sphinx-runner
-sphinx-rtd-theme==1.0.0 \
-    --hash=sha256:4d35a56f4508cfee4c4fb604373ede6feae2a306731d533f409ef5c3496fdbd8 \
-    --hash=sha256:eec6d497e4c2195fa0e8b2016b337532b8a699a68bcb22a512870e16925c6a5c
+sphinx-rtd-theme==1.1.0 \
+    --hash=sha256:36da4267c804b98197419df8aa415d245449b8945301fce8c961038e0ba79ec5 \
+    --hash=sha256:6e20f00f62b2c05434a33c5116bc3348a41ca94af03d3d7d1714c63457073bb3
     # via
     #   -r requirements.in
     #   envoy-docs-sphinx-runner
