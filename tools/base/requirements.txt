@@ -44,6 +44,8 @@ aio-run-checker==0.5.5 \
     # via
     #   envoy-code-format-python-check
     #   envoy-dependency-pip-check
+    #   envoy-distribution-distrotest
+    #   envoy-distribution-verify
 aio-run-runner==0.3.3 \
     --hash=sha256:0a783260838a660b4df085d163781fdb35991febf4818524e8f2a13d9f999e07 \
     --hash=sha256:ce904917303723b5495b951e3b6aaacbac2373d92b7a0bd8f562f1d920cfac22
@@ -327,10 +329,7 @@ envoy-abstract-command==0.0.3 \
 envoy-base-checker==0.1.1 \
     --hash=sha256:58fb4b78e0df5d0d400d47cc6326c739a9f5e759bd43b90f35612dcf8a3cd838 \
     --hash=sha256:a7db6d2a9a3178c95102eb177f41208de677b803b9fcfb6fca603a5a1997be01
-    # via
-    #   -r requirements.in
-    #   envoy-distribution-distrotest
-    #   envoy-distribution-verify
+    # via -r requirements.in
 envoy-base-runner==0.1.0 \
     --hash=sha256:38f2660d258ca54400953a3e94c430006169436cb9bae3c4fdd22d73bb6d2245 \
     --hash=sha256:6f7e3465719a8bd98b6a104271f2d612da361f521e1e9789d6e99904a6d641de
@@ -360,15 +359,16 @@ envoy-dependency-pip-check==0.1.3 \
     --hash=sha256:b07ca0c1f2786b13b0dfcdfc82647afece3918d44dc7ddaca5739dfaadc9d0e8 \
     --hash=sha256:f7bafe720f499009173625268af15374dea9e733b8dadb0fc26bfa7c822a7028
     # via -r requirements.in
-envoy-distribution-distrotest==0.0.3 \
-    --hash=sha256:c094adbd959eb1336f93afc00aedb7ee4e68e8252e2365be816a6f9ede8a3de7
+envoy-distribution-distrotest==0.0.9 \
+    --hash=sha256:3481df451c8bf10f8f50a130bf583ae562060d940d589f2a08dfb032b84a74c1 \
+    --hash=sha256:ca62de6610dd9578bcfc8e2ee589262d6507fb1ed9a224f49e33a7e4599419e5
     # via envoy-distribution-verify
 envoy-distribution-release==0.0.4 \
     --hash=sha256:41037e0488f0593ce5173739fe0cd1b45a4775f5a47738b85d9d04024ca241a2
     # via -r requirements.in
-envoy-distribution-verify==0.0.4 \
-    --hash=sha256:927f10775fa617505d3d55e4e9aff8f881d51ffcda2d8637f0619218c56cd069 \
-    --hash=sha256:96d60fc29ad7bdc3e26721df7dcaf1a920569e8cd5452554d7e4b76a122f24b3
+envoy-distribution-verify==0.0.10 \
+    --hash=sha256:00baf14de232c61fdb50701ad11ad2254aa3aa3dae901f409a5a958a634ecc2b \
+    --hash=sha256:570d7937e6d326922a0f9ce1e7d0dc9e866595a4b7ae0233ef3929278aecaf9d
     # via -r requirements.in
 envoy-docker-utils==0.0.2 \
     --hash=sha256:a12cb57f0b6e204d646cbf94f927b3a8f5a27ed15f60d0576176584ec16a4b76
@@ -980,6 +980,7 @@ verboselogs==1.7 \
     #   -r requirements.in
     #   aio-run-runner
     #   envoy-base-runner
+    #   envoy-distribution-distrotest
     #   envoy-github-abstract
     #   envoy-github-release
 wrapt==1.12.1 \
