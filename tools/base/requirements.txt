@@ -16,6 +16,7 @@ abstracts==0.0.12 \
     #   envoy-base-utils
     #   envoy-code-format-python-check
     #   envoy-dependency-pip-check
+    #   envoy-distribution-release
     #   envoy-github-abstract
     #   envoy-github-release
 aio-api-github==0.1.2 \
@@ -30,14 +31,15 @@ aio-core==0.9.1 \
     #   aio-run-runner
     #   envoy-base-utils
     #   envoy-code-format-python-check
+    #   envoy-distribution-release
+    #   envoy-github-abstract
+    #   envoy-github-release
 aio-functional==0.0.10 \
     --hash=sha256:20d3bda56196cd6916eca97965d818f61ca37f98ec9f4d23545802a180362813 \
     --hash=sha256:9d456f0c2382968aacd62cccc2b815a25fd55f53c2c6223d6e587efeb8bc2622
     # via
     #   -r requirements.in
     #   aio-tasks
-    #   envoy-github-abstract
-    #   envoy-github-release
 aio-run-checker==0.5.5 \
     --hash=sha256:2422af633b4851551fbdd721d87d48f3cd5a852a19cb0a411284708834258307 \
     --hash=sha256:e4a5d6c7bf138825ac4bb048cd28747a08eecad6d5bb1aa572ed78f27e14c4e3
@@ -52,19 +54,16 @@ aio-run-runner==0.3.3 \
     # via
     #   aio-run-checker
     #   envoy-base-utils
-aio-stream==0.0.2 \
-    --hash=sha256:6f5baaff48f6319db134cd56c06ccf89db1f7c5f67a26382e081efc96f2f675d
-    # via envoy-github-release
+    #   envoy-distribution-release
+    #   envoy-github-abstract
+    #   envoy-github-release
 aio-subprocess==0.0.4 \
     --hash=sha256:fd504a7c02423c40fde19ad87b62932b9eaa091f5a22d26b89b452059a728750
     # via -r requirements.in
 aio-tasks==0.0.5 \
     --hash=sha256:a2225785b6f3ecbe0ca879a2a1c0314440c7a3606dd92b2731db547a60b5ed5e \
     --hash=sha256:dae64f6d72b07b1f6d68dfa991670572b1939e9585f10ac64f5367c6fd5b4df2
-    # via
-    #   -r requirements.in
-    #   envoy-github-abstract
-    #   envoy-github-release
+    # via -r requirements.in
 aiodocker==0.21.0 \
     --hash=sha256:1f2e6db6377195962bb676d4822f6e3a0c525e1b5d60b8ebbab68230bff3d227 \
     --hash=sha256:6fe00135bb7dc40a407669d3157ecdfd856f3737d939df54f40a479d40cf7bdc
@@ -75,7 +74,7 @@ aiodocker==0.21.0 \
 aiofiles==0.7.0 \
     --hash=sha256:a1c4fc9b2ff81568c83e21392a82f344ea9d23da906e4f6a52662764545e19d4 \
     --hash=sha256:c67a6823b5f23fcab0a2595a289cec7d8c863ffcb4322fb8cd6b90400aedfdbc
-    # via aio-stream
+    # via envoy-github-release
 aiohttp==3.8.1 \
     --hash=sha256:01d7bdb774a9acc838e6b8f1d114f45303841b89b95984cbb7d80ea41172a9e3 \
     --hash=sha256:03a6d5349c9ee8f79ab3ff3694d6ce1cfc3ced1c9d36200cb8f08ba06bd3b782 \
@@ -151,7 +150,6 @@ aiohttp==3.8.1 \
     --hash=sha256:fc5471e1a54de15ef71c1bc6ebe80d4dc681ea600e68bfd1cbce40427f0b7578
     # via
     #   aio-api-github
-    #   aio-stream
     #   aiodocker
     #   envoy-base-utils
     #   envoy-github-abstract
@@ -323,9 +321,7 @@ docutils==0.16 \
     #   sphinx-tabs
 envoy-abstract-command==0.0.3 \
     --hash=sha256:4b7b15c91bea1f2eb7c2e8e35f95cd9437e1c8f151adc093bf7858fc85d48221
-    # via
-    #   envoy-base-runner
-    #   envoy-distribution-release
+    # via envoy-base-runner
 envoy-base-checker==0.1.1 \
     --hash=sha256:58fb4b78e0df5d0d400d47cc6326c739a9f5e759bd43b90f35612dcf8a3cd838 \
     --hash=sha256:a7db6d2a9a3178c95102eb177f41208de677b803b9fcfb6fca603a5a1997be01
@@ -336,9 +332,7 @@ envoy-base-runner==0.1.0 \
     # via
     #   -r requirements.in
     #   envoy-base-checker
-    #   envoy-distribution-release
     #   envoy-docs-sphinx-runner
-    #   envoy-github-abstract
     #   envoy-gpg-sign
 envoy-base-utils==0.3.6 \
     --hash=sha256:09bab1310ffd133250e484201244eb11ab019ac36362b14f913ce91ecb023cb3 \
@@ -347,6 +341,7 @@ envoy-base-utils==0.3.6 \
     #   -r requirements.in
     #   envoy-dependency-pip-check
     #   envoy-distribution-distrotest
+    #   envoy-distribution-release
     #   envoy-distribution-verify
     #   envoy-docs-sphinx-runner
     #   envoy-github-release
@@ -363,8 +358,9 @@ envoy-distribution-distrotest==0.0.9 \
     --hash=sha256:3481df451c8bf10f8f50a130bf583ae562060d940d589f2a08dfb032b84a74c1 \
     --hash=sha256:ca62de6610dd9578bcfc8e2ee589262d6507fb1ed9a224f49e33a7e4599419e5
     # via envoy-distribution-verify
-envoy-distribution-release==0.0.4 \
-    --hash=sha256:41037e0488f0593ce5173739fe0cd1b45a4775f5a47738b85d9d04024ca241a2
+envoy-distribution-release==0.0.8 \
+    --hash=sha256:60c20f5b74780c46e0d813d1a7fc1af53805cf2c51139badbee39374fcf6c5a9 \
+    --hash=sha256:7d54b0364d9f1bb22d81f1280822eceb96ff400566838fe37579f49d8f55be24
     # via -r requirements.in
 envoy-distribution-verify==0.0.10 \
     --hash=sha256:00baf14de232c61fdb50701ad11ad2254aa3aa3dae901f409a5a958a634ecc2b \
@@ -377,13 +373,15 @@ envoy-docs-sphinx-runner==0.0.5 \
     --hash=sha256:8dfd96379ea312f48b3d8c51cb705c1bb710fb8d991ceef9ac017fc6dada025c \
     --hash=sha256:9c6c69030f8660a05418f05861b3616e9cc62057578e22f0c593037b1bf1351d
     # via -r requirements.in
-envoy-github-abstract==0.0.16 \
-    --hash=sha256:badf04104492fb6b37ba2163f2b225132ed04aba680beb218e7c7d918564f8ee
+envoy-github-abstract==0.0.22 \
+    --hash=sha256:2dd65e2f247a4947d0198b295c82716c13162e30c433b7625c27d59eee7bcf78 \
+    --hash=sha256:86de8bbe2ecf9db896ecc4ff30ab48fc44a516d868ab1748cd4ae538facacb10
     # via
     #   envoy-distribution-release
     #   envoy-github-release
-envoy-github-release==0.0.8 \
-    --hash=sha256:fbc4354030137eb565b8c4d679965e4ef60b01de0c09310441836e592ca0cd19
+envoy-github-release==0.0.14 \
+    --hash=sha256:51bc7c46fdc5954502c55886c321c68300ff8d7c9048151848b6a5d71710226f \
+    --hash=sha256:58d7916eca90bcb3b47a523db352a35849d4cf6f2fa3e9d16c7d8fdf1eccdfbf
     # via envoy-distribution-release
 envoy-gpg-identity==0.0.2 \
     --hash=sha256:7d32ff9133e00b9974b4dabd2512b4872b091b8c5069d0112240dcc1a56bc406
@@ -489,6 +487,7 @@ gidgethub==5.0.1 \
     --hash=sha256:67245e93eb0918b37df038148af675df43b62e832c529d7f859f6b90d9f3e70d
     # via
     #   aio-api-github
+    #   envoy-distribution-release
     #   envoy-github-abstract
     #   envoy-github-release
 gitdb==4.0.7 \
@@ -677,6 +676,7 @@ packaging==21.0 \
     # via
     #   aio-api-github
     #   envoy-base-utils
+    #   envoy-github-abstract
     #   envoy-github-release
     #   pytest
     #   sphinx
