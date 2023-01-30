@@ -52,6 +52,7 @@ aio-run-runner==0.3.3 \
     # via
     #   aio-run-checker
     #   envoy-base-utils
+    #   envoy-docs-sphinx-runner
 aio-stream==0.0.2 \
     --hash=sha256:6f5baaff48f6319db134cd56c06ccf89db1f7c5f67a26382e081efc96f2f675d
     # via envoy-github-release
@@ -337,7 +338,6 @@ envoy-base-runner==0.1.0 \
     #   -r requirements.in
     #   envoy-base-checker
     #   envoy-distribution-release
-    #   envoy-docs-sphinx-runner
     #   envoy-github-abstract
     #   envoy-gpg-sign
 envoy-base-utils==0.3.6 \
@@ -373,9 +373,9 @@ envoy-distribution-verify==0.0.10 \
 envoy-docker-utils==0.0.2 \
     --hash=sha256:a12cb57f0b6e204d646cbf94f927b3a8f5a27ed15f60d0576176584ec16a4b76
     # via envoy-distribution-distrotest
-envoy-docs-sphinx-runner==0.0.5 \
-    --hash=sha256:8dfd96379ea312f48b3d8c51cb705c1bb710fb8d991ceef9ac017fc6dada025c \
-    --hash=sha256:9c6c69030f8660a05418f05861b3616e9cc62057578e22f0c593037b1bf1351d
+envoy-docs-sphinx-runner==0.1.10 \
+    --hash=sha256:6d97c5f0392aa569810da91f0fe42f934ef3d9ecc7430335c3c65892d5b0b277 \
+    --hash=sha256:e78fe5e8933bd2c7d7e7acd5f564a1f4985ba749f7a0a89cdbbc8e923f7cf026
     # via -r requirements.in
 envoy-github-abstract==0.0.16 \
     --hash=sha256:badf04104492fb6b37ba2163f2b225132ed04aba680beb218e7c7d918564f8ee
@@ -677,6 +677,7 @@ packaging==21.0 \
     # via
     #   aio-api-github
     #   envoy-base-utils
+    #   envoy-docs-sphinx-runner
     #   envoy-github-release
     #   pytest
     #   sphinx
@@ -707,7 +708,9 @@ protobuf==4.21.4 \
     --hash=sha256:d9b0398ff68017015ec2a37fb0ab390363a654362b15ca2e4543d3c82587768f \
     --hash=sha256:e113f3d1629cebc911b107ce704f1a17d7e1589efef5c498e202bd47df223955 \
     --hash=sha256:fd62b6eda64e199b5da651d6be42af2aa8e30805961af1fc5f70292affca78e3
-    # via envoy-base-utils
+    # via
+    #   envoy-base-utils
+    #   envoy-docs-sphinx-runner
 pycodestyle==2.10.0 \
     --hash=sha256:347187bdb476329d98f695c213d7295a846d1152ff4fe9bacb8a9590b8ee7053 \
     --hash=sha256:8a4eaf0d0495c7395bdab3589ac2db602797d76207242c17d470186815706610
@@ -724,9 +727,9 @@ pygithub==1.56 \
     --hash=sha256:80c6d85cf0f9418ffeb840fd105840af694c4f17e102970badbaf678251f2a01 \
     --hash=sha256:d15f13d82165306da8a68aefc0f848a6f6432d5febbff13b60a94758ce3ef8b5
     # via -r requirements.in
-pygments==2.10.0 \
-    --hash=sha256:b8e67fe6af78f492b3c4b3e2970c0624cbf08beb1e493b2c99b9fa1b67a20380 \
-    --hash=sha256:f398865f7eb6874156579fdf36bc840a03cab64d1cde9e93d68f46a425ec52c6
+pygments==2.14.0 \
+    --hash=sha256:b3ed06a9e8ac9a9aae5a6f5dbe78a8a58655d17b43b93c078f094ddc476ae297 \
+    --hash=sha256:fa7bd7bd2771287c0de303af8bfdfc731f51bd2c6a47ab69d117138893b82717
     # via
     #   envoy-docs-sphinx-runner
     #   sphinx
