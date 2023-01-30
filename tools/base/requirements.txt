@@ -30,6 +30,7 @@ aio-core==0.9.1 \
     #   aio-run-runner
     #   envoy-base-utils
     #   envoy-code-format-python-check
+    #   envoy-gpg-identity
 aio-functional==0.0.10 \
     --hash=sha256:20d3bda56196cd6916eca97965d818f61ca37f98ec9f4d23545802a180362813 \
     --hash=sha256:9d456f0c2382968aacd62cccc2b815a25fd55f53c2c6223d6e587efeb8bc2622
@@ -52,6 +53,7 @@ aio-run-runner==0.3.3 \
     # via
     #   aio-run-checker
     #   envoy-base-utils
+    #   envoy-gpg-sign
 aio-stream==0.0.2 \
     --hash=sha256:6f5baaff48f6319db134cd56c06ccf89db1f7c5f67a26382e081efc96f2f675d
     # via envoy-github-release
@@ -339,7 +341,6 @@ envoy-base-runner==0.1.0 \
     #   envoy-distribution-release
     #   envoy-docs-sphinx-runner
     #   envoy-github-abstract
-    #   envoy-gpg-sign
 envoy-base-utils==0.3.6 \
     --hash=sha256:09bab1310ffd133250e484201244eb11ab019ac36362b14f913ce91ecb023cb3 \
     --hash=sha256:ad699b94fd7c63088266a5cbc74ff732e653e586b5c1b9002351080c7d850c09
@@ -385,11 +386,13 @@ envoy-github-abstract==0.0.16 \
 envoy-github-release==0.0.8 \
     --hash=sha256:fbc4354030137eb565b8c4d679965e4ef60b01de0c09310441836e592ca0cd19
     # via envoy-distribution-release
-envoy-gpg-identity==0.0.2 \
-    --hash=sha256:7d32ff9133e00b9974b4dabd2512b4872b091b8c5069d0112240dcc1a56bc406
+envoy-gpg-identity==0.1.0 \
+    --hash=sha256:1df6989e1a6a3a9f5809ac056829b840f57326d41ae1181db415a722216bff48 \
+    --hash=sha256:9e11625e25ad6a031f1c85c57067673f50c0427b0e71ef0a7e926ce77ebb75a9
     # via envoy-gpg-sign
-envoy-gpg-sign==0.0.3 \
-    --hash=sha256:31667931f5d7ff05fd809b89748f277511486311c777652af4cb8889bd641049
+envoy-gpg-sign==0.1.0 \
+    --hash=sha256:14b8efee80916fa78857198fb98357c9ddfaa9dec34eb8a453bda1a364f4b973 \
+    --hash=sha256:36bb56534a6c5947c18bd10c43185345f092664de86b49318e2afc6cac7d9158
     # via -r requirements.in
 flake8==6.0.0 \
     --hash=sha256:3833794e27ff64ea4e9cf5d410082a8b97ff1a06c16aa3d2027339cd0f1195c7 \
@@ -983,6 +986,7 @@ verboselogs==1.7 \
     #   envoy-distribution-distrotest
     #   envoy-github-abstract
     #   envoy-github-release
+    #   envoy-gpg-sign
 wrapt==1.12.1 \
     --hash=sha256:b62ffa81fb85f4332a4f609cab4ac40709470da05643a082ec1eb88e6d9b97d7
     # via deprecated
