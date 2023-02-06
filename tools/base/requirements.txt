@@ -16,6 +16,7 @@ abstracts==0.0.12 \
     #   envoy-base-utils
     #   envoy-code-format-python-check
     #   envoy-dependency-pip-check
+    #   envoy-distribution-release
     #   envoy-github-abstract
     #   envoy-github-release
 aio-api-github==0.1.6 \
@@ -30,6 +31,9 @@ aio-core==0.9.1 \
     #   aio-run-runner
     #   envoy-base-utils
     #   envoy-code-format-python-check
+    #   envoy-distribution-release
+    #   envoy-github-abstract
+    #   envoy-github-release
     #   envoy-gpg-identity
 aio-functional==0.0.10 \
     --hash=sha256:20d3bda56196cd6916eca97965d818f61ca37f98ec9f4d23545802a180362813 \
@@ -37,8 +41,6 @@ aio-functional==0.0.10 \
     # via
     #   -r requirements.in
     #   aio-tasks
-    #   envoy-github-abstract
-    #   envoy-github-release
 aio-run-checker==0.5.7 \
     --hash=sha256:19ce85bc48800c5e0049430346a92d5b2ae98dda95b12ae5332ba1b28e7450e8 \
     --hash=sha256:5b9c5296c824206aebb10ade175eb07e89497761da6749b6ba09507ce03f64af
@@ -53,20 +55,17 @@ aio-run-runner==0.3.3 \
     # via
     #   aio-run-checker
     #   envoy-base-utils
+    #   envoy-distribution-release
+    #   envoy-github-abstract
+    #   envoy-github-release
     #   envoy-gpg-sign
-aio-stream==0.0.2 \
-    --hash=sha256:6f5baaff48f6319db134cd56c06ccf89db1f7c5f67a26382e081efc96f2f675d
-    # via envoy-github-release
 aio-subprocess==0.0.4 \
     --hash=sha256:fd504a7c02423c40fde19ad87b62932b9eaa091f5a22d26b89b452059a728750
     # via -r requirements.in
 aio-tasks==0.0.5 \
     --hash=sha256:a2225785b6f3ecbe0ca879a2a1c0314440c7a3606dd92b2731db547a60b5ed5e \
     --hash=sha256:dae64f6d72b07b1f6d68dfa991670572b1939e9585f10ac64f5367c6fd5b4df2
-    # via
-    #   -r requirements.in
-    #   envoy-github-abstract
-    #   envoy-github-release
+    # via -r requirements.in
 aiodocker==0.21.0 \
     --hash=sha256:1f2e6db6377195962bb676d4822f6e3a0c525e1b5d60b8ebbab68230bff3d227 \
     --hash=sha256:6fe00135bb7dc40a407669d3157ecdfd856f3737d939df54f40a479d40cf7bdc
@@ -77,7 +76,7 @@ aiodocker==0.21.0 \
 aiofiles==0.7.0 \
     --hash=sha256:a1c4fc9b2ff81568c83e21392a82f344ea9d23da906e4f6a52662764545e19d4 \
     --hash=sha256:c67a6823b5f23fcab0a2595a289cec7d8c863ffcb4322fb8cd6b90400aedfdbc
-    # via aio-stream
+    # via envoy-github-release
 aiohttp==3.8.1 \
     --hash=sha256:01d7bdb774a9acc838e6b8f1d114f45303841b89b95984cbb7d80ea41172a9e3 \
     --hash=sha256:03a6d5349c9ee8f79ab3ff3694d6ce1cfc3ced1c9d36200cb8f08ba06bd3b782 \
@@ -153,7 +152,6 @@ aiohttp==3.8.1 \
     --hash=sha256:fc5471e1a54de15ef71c1bc6ebe80d4dc681ea600e68bfd1cbce40427f0b7578
     # via
     #   aio-api-github
-    #   aio-stream
     #   aiodocker
     #   envoy-base-utils
     #   envoy-github-abstract
@@ -326,9 +324,7 @@ docutils==0.16 \
 envoy-abstract-command==0.0.4 \
     --hash=sha256:becc9ea77cd14aea6fae678b314bf371b9965045d928835e1dae3389987cf454 \
     --hash=sha256:fbd68664e986ff2d0070da83bed6a408274abe91da0587f951d799170c11a8d4
-    # via
-    #   envoy-base-runner
-    #   envoy-distribution-release
+    # via envoy-base-runner
 envoy-base-checker==0.1.2 \
     --hash=sha256:81cb8d4c98b507661ff65f05468796d4627b2f0f9fcd8473387e8d5fd3291800 \
     --hash=sha256:830bb7a5ac3e81a4c789388edaf645aa7e62c0572cc49ce8dddc15775872f614
@@ -339,9 +335,7 @@ envoy-base-runner==0.1.1 \
     # via
     #   -r requirements.in
     #   envoy-base-checker
-    #   envoy-distribution-release
     #   envoy-docs-sphinx-runner
-    #   envoy-github-abstract
 envoy-base-utils==0.3.10 \
     --hash=sha256:a00722576b9845abee44df4e63e177596b99bf494acde5d077acbaf779e7aa92 \
     --hash=sha256:ddc99293b8ff976fc85952ff094fddf3e4d279dd1bb2dd72cdf4c719f4f7f13e
@@ -349,6 +343,7 @@ envoy-base-utils==0.3.10 \
     #   -r requirements.in
     #   envoy-dependency-pip-check
     #   envoy-distribution-distrotest
+    #   envoy-distribution-release
     #   envoy-distribution-verify
     #   envoy-docs-sphinx-runner
     #   envoy-github-release
@@ -365,8 +360,9 @@ envoy-distribution-distrotest==0.0.9 \
     --hash=sha256:3481df451c8bf10f8f50a130bf583ae562060d940d589f2a08dfb032b84a74c1 \
     --hash=sha256:ca62de6610dd9578bcfc8e2ee589262d6507fb1ed9a224f49e33a7e4599419e5
     # via envoy-distribution-verify
-envoy-distribution-release==0.0.4 \
-    --hash=sha256:41037e0488f0593ce5173739fe0cd1b45a4775f5a47738b85d9d04024ca241a2
+envoy-distribution-release==0.0.9 \
+    --hash=sha256:592bdc8bc6847daa7e677011d72163b507e3fee821f5ea13a944e27c2fda334f \
+    --hash=sha256:974308468be49d034e5b174745bd6a5671364d090a9a810f0f6f36e81afbcb5d
     # via -r requirements.in
 envoy-distribution-verify==0.0.11 \
     --hash=sha256:7a560cd283321ec00e206c3d6938751836e16ba686fe9585af2383fb11499b38 \
@@ -379,13 +375,15 @@ envoy-docs-sphinx-runner==0.0.5 \
     --hash=sha256:8dfd96379ea312f48b3d8c51cb705c1bb710fb8d991ceef9ac017fc6dada025c \
     --hash=sha256:9c6c69030f8660a05418f05861b3616e9cc62057578e22f0c593037b1bf1351d
     # via -r requirements.in
-envoy-github-abstract==0.0.16 \
-    --hash=sha256:badf04104492fb6b37ba2163f2b225132ed04aba680beb218e7c7d918564f8ee
+envoy-github-abstract==0.0.22 \
+    --hash=sha256:2dd65e2f247a4947d0198b295c82716c13162e30c433b7625c27d59eee7bcf78 \
+    --hash=sha256:86de8bbe2ecf9db896ecc4ff30ab48fc44a516d868ab1748cd4ae538facacb10
     # via
     #   envoy-distribution-release
     #   envoy-github-release
-envoy-github-release==0.0.8 \
-    --hash=sha256:fbc4354030137eb565b8c4d679965e4ef60b01de0c09310441836e592ca0cd19
+envoy-github-release==0.0.15 \
+    --hash=sha256:955671aa0c664ade3d8dbcd60bc9c72284139b81aeaa3fe72157c4e8383fd35b \
+    --hash=sha256:d571422a79e535ec36130dae5a3c56b429040fb20ca60cd3b8cf8588c52b546c
     # via envoy-distribution-release
 envoy-gpg-identity==0.1.0 \
     --hash=sha256:1df6989e1a6a3a9f5809ac056829b840f57326d41ae1181db415a722216bff48 \
@@ -493,6 +491,7 @@ gidgethub==5.0.1 \
     --hash=sha256:67245e93eb0918b37df038148af675df43b62e832c529d7f859f6b90d9f3e70d
     # via
     #   aio-api-github
+    #   envoy-distribution-release
     #   envoy-github-abstract
     #   envoy-github-release
 gitdb==4.0.7 \
@@ -681,6 +680,7 @@ packaging==23.0 \
     # via
     #   aio-api-github
     #   envoy-base-utils
+    #   envoy-github-abstract
     #   envoy-github-release
     #   pytest
     #   sphinx
