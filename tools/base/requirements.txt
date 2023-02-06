@@ -39,9 +39,9 @@ aio-functional==0.0.10 \
     #   aio-tasks
     #   envoy-github-abstract
     #   envoy-github-release
-aio-run-checker==0.5.5 \
-    --hash=sha256:2422af633b4851551fbdd721d87d48f3cd5a852a19cb0a411284708834258307 \
-    --hash=sha256:e4a5d6c7bf138825ac4bb048cd28747a08eecad6d5bb1aa572ed78f27e14c4e3
+aio-run-checker==0.5.7 \
+    --hash=sha256:19ce85bc48800c5e0049430346a92d5b2ae98dda95b12ae5332ba1b28e7450e8 \
+    --hash=sha256:5b9c5296c824206aebb10ade175eb07e89497761da6749b6ba09507ce03f64af
     # via
     #   envoy-code-format-python-check
     #   envoy-dependency-pip-check
@@ -368,9 +368,9 @@ envoy-distribution-distrotest==0.0.9 \
 envoy-distribution-release==0.0.4 \
     --hash=sha256:41037e0488f0593ce5173739fe0cd1b45a4775f5a47738b85d9d04024ca241a2
     # via -r requirements.in
-envoy-distribution-verify==0.0.10 \
-    --hash=sha256:00baf14de232c61fdb50701ad11ad2254aa3aa3dae901f409a5a958a634ecc2b \
-    --hash=sha256:570d7937e6d326922a0f9ce1e7d0dc9e866595a4b7ae0233ef3929278aecaf9d
+envoy-distribution-verify==0.0.11 \
+    --hash=sha256:7a560cd283321ec00e206c3d6938751836e16ba686fe9585af2383fb11499b38 \
+    --hash=sha256:f62a64d158aa656b25629714bef2a1d20d0cbfcab040c6351fd6e960567885e9
     # via -r requirements.in
 envoy-docker-utils==0.0.2 \
     --hash=sha256:a12cb57f0b6e204d646cbf94f927b3a8f5a27ed15f60d0576176584ec16a4b76
