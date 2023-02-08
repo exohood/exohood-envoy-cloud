@@ -871,9 +871,9 @@ sphinx-copybutton==0.5.1 \
     # via
     #   -r requirements.in
     #   envoy-docs-sphinx-runner
-sphinx-rtd-theme==1.1.1 \
-    --hash=sha256:31faa07d3e97c8955637fc3f1423a5ab2c44b74b8cc558a51498c202ce5cbda7 \
-    --hash=sha256:6146c845f1e1947b3c3dd4432c28998a1693ccc742b4f9ad7c63129f0757c103
+sphinx-rtd-theme==1.2.0 \
+    --hash=sha256:a0d8bd1a2ed52e0b338cbe19c4b2eef3c5e7a048769753dac6a9f059c7b641b8 \
+    --hash=sha256:f823f7e71890abe0ac6aaa6013361ea2696fc8d3e1fa798f463e82bdb77eeff2
     # via
     #   -r requirements.in
     #   envoy-docs-sphinx-runner
@@ -901,6 +901,10 @@ sphinxcontrib-httpdomain==1.8.1 \
     # via
     #   -r requirements.in
     #   envoy-docs-sphinx-runner
+sphinxcontrib-jquery==2.0.0 \
+    --hash=sha256:8fb65f6dba84bf7bcd1aea1f02ab3955ac34611d838bcc95d4983b805b234daa \
+    --hash=sha256:ed47fa425c338ffebe3c37e1cdb56e30eb806116b85f01055b158c7057fdb995
+    # via sphinx-rtd-theme
 sphinxcontrib-jsmath==1.0.1 \
     --hash=sha256:2ec2eaebfb78f3f2078e73666b1415417a116cc848b72e5172e596c871103178 \
     --hash=sha256:a9925e4a4587247ed2191a22df5f6970656cb8ca2bd6284309578f2153e0c4b8
