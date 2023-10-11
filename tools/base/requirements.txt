@@ -19,9 +19,9 @@ abstracts==0.0.12 \
     #   envoy-distribution-release
     #   envoy-github-abstract
     #   envoy-github-release
-aio-api-github==0.2.4 \
-    --hash=sha256:ccbc7c6c61b25994e87474d78c48549e9fbc98c2cc04314b50b80ba1f40fd521 \
-    --hash=sha256:eccfccd1503f50384de3f6526bd780ca02107cb440a666b2c1ab978d99c7db5e
+aio-api-github==0.2.5 \
+    --hash=sha256:301a357209831ac2bc0fb5c79f8b8795a5363da5cabc2229f10155bdb6d42f5d \
+    --hash=sha256:3532d0892e875e8bb6b188c0beba4e8bac9d5147e249ce987bb2beef1e7b711e
     # via envoy-base-utils
 aio-core==0.10.0 \
     --hash=sha256:57e2d8dd8ee8779b0ebc2e2447492c0db8d7ed782e9ad1bb2662593740751acb \
@@ -334,9 +334,9 @@ envoy-base-runner==0.1.1 \
     #   -r requirements.in
     #   envoy-base-checker
     #   envoy-docs-sphinx-runner
-envoy-base-utils==0.4.11 \
-    --hash=sha256:5ced696c470b4c3090e6fc3f74e7e33f5fe217e775b1fc1fb56dfc756b781fbe \
-    --hash=sha256:97c79177bb89360b7772e58fb20c671c67bf0b6cdee74c0b9f8a80433f0370cc
+envoy-base-utils==0.4.13 \
+    --hash=sha256:58a35870e15ca00e921f9ab8266c6a1f83dc40f830bf0f1002e940aae2067a06 \
+    --hash=sha256:a3a1f1289ad7fabb33766699912d06a81385f4e3619f6bec80d5bdaab5e606a8
     # via
     #   -r requirements.in
     #   envoy-dependency-pip-check
