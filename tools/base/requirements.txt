@@ -334,9 +334,9 @@ envoy-base-runner==0.1.1 \
     #   -r requirements.in
     #   envoy-base-checker
     #   envoy-docs-sphinx-runner
-envoy-base-utils==0.4.13 \
-    --hash=sha256:58a35870e15ca00e921f9ab8266c6a1f83dc40f830bf0f1002e940aae2067a06 \
-    --hash=sha256:a3a1f1289ad7fabb33766699912d06a81385f4e3619f6bec80d5bdaab5e606a8
+envoy-base-utils==0.4.15 \
+    --hash=sha256:7c614a4f9765cfe4512bdc00a15fba69b04490c7028a545c6bc41449bc4b2020 \
+    --hash=sha256:b40c9a0375a2f750c384a61c511e50d947802295de30b8138e2a1f23d4d5a377
     # via
     #   -r requirements.in
     #   envoy-dependency-pip-check
