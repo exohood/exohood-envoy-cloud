@@ -102,9 +102,9 @@ pycparser==2.20 \
     --hash=sha256:2d475327684562c3a96cc71adf7dc8c4f0565175cf86b6d7a404ff4c771f15f0 \
     --hash=sha256:7582ad22678f0fcd81102833f60ef8d0e57288b6b5fb00323d101be910e35705
     # via cffi
-pygithub==2.6.0 \
-    --hash=sha256:04784fd6f4acfcaf91df5d3f08ef14153709395a34e706850f92337d9914548f \
-    --hash=sha256:22635b245b885413c607bb86393603cadcfdcb67a9b81ce9a64634e64f308084
+pygithub==2.6.1 \
+    --hash=sha256:6f2fa6d076ccae475f9fc392cc6cdbd54db985d4f69b8833a28397de75ed6ca3 \
+    --hash=sha256:b5c035392991cca63959e9453286b41b54d83bf2de2daa7d7ff7e4312cebf3bf
     # via -r requirements.in
 pyjwt[crypto]==2.6.0 \
     --hash=sha256:69285c7e31fc44f68a1feb309e948e0df53259d579295e6cfe2b1792329f05fd \
