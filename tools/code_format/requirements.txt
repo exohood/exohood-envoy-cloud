@@ -18,9 +18,9 @@ mccabe==0.7.0 \
     --hash=sha256:348e0240c33b60bbdf4e523192ef919f28cb2c3d7d5c7794f74009290f236325 \
     --hash=sha256:6c2d30ab6be0e4a46919781807b4f0d834ebdd6c6e3dca0bda5a15f863427b6e
     # via flake8
-pep8-naming==0.14.1 \
-    --hash=sha256:1ef228ae80875557eb6c1549deafed4dabbf3261cfcafa12f773fe0db9be8a36 \
-    --hash=sha256:63f514fc777d715f935faf185dedd679ab99526a7f2f503abb61587877f7b1c5
+pep8-naming==0.15.1 \
+    --hash=sha256:eb63925e7fd9e028c7f7ee7b1e413ec03d1ee5de0e627012102ee0222c273c86 \
+    --hash=sha256:f6f4a499aba2deeda93c1f26ccc02f3da32b035c8b2db9696b730ef2c9639d29
     # via -r tools/code_format/requirements.txt
 pycodestyle==2.12.1 \
     --hash=sha256:46f0fb92069a7c28ab7bb558f05bfc0110dac69a0cd23c61ea0040283a9d78b3 \
