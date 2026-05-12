@@ -4,9 +4,9 @@
 #
 #    pip-compile --allow-unsafe --generate-hashes requirements.in
 #
-certifi==2021.5.30 \
-    --hash=sha256:2bbf76fd432960138b3ef6dda3dde0544f27cbf8546c458e60baf371917ba9ee \
-    --hash=sha256:50b1e4f8446b06f41be7dd6338db18e0990601dce795c2b1686458aa7e8fa7d8
+certifi==2026.4.22 \
+    --hash=sha256:3cb2210c8f88ba2318d29b0388d1023c8492ff72ecdde4ebdaddbb13a31b1c4a \
+    --hash=sha256:8d455352a37b71bf76a79caa83a3d6c25afee4a385d632127b6afb3963f1c580
     # via requests
 charset-normalizer==2.0.6 \
     --hash=sha256:5d209c0a931f215cee683b6445e2d77677e7e75e159f78def0db09d68fafcaa6 \
@@ -147,9 +147,9 @@ protobuf==5.29.5 \
     # via
     #   -r requirements.in
     #   grpcio-tools
-requests==2.32.4 \
-    --hash=sha256:27babd3cda2a6d50b30443204ee89830707d396671944c998b5975b031ac2b2c \
-    --hash=sha256:27d0316682c8a29834d3264820024b62a36942083d52caf2f14c0591336d3422
+requests==2.34.0 \
+    --hash=sha256:7d62fe92f50eb82c529b0916bb445afa1531a566fc8f35ffdc64446e771b856a \
+    --hash=sha256:917520a21b767485ce7c588f4ebb917c436b24a31231b44228715eaeb5a52c60
     # via -r requirements.in
 urllib3==1.26.7 \
     --hash=sha256:4987c65554f7a2dbf30c18fd48778ef124af6fab771a377103da0585e2336ece \
