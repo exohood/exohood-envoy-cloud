@@ -245,9 +245,9 @@ pycparser==2.22 \
     --hash=sha256:491c8be9c040f5390f5bf44a5b07752bd07f56edf992381b05c701439eec10f6 \
     --hash=sha256:c3702b6d3dd8c7abc1afa565d7e63d53a1d0bd86cdc24edd75470f4de499cfcc
     # via cffi
-pygithub==2.5.0 \
-    --hash=sha256:b0b635999a658ab8e08720bdd3318893ff20e2275f6446fcf35bf3f44f2c0fd2 \
-    --hash=sha256:e1613ac508a9be710920d26eb18b1905ebd9926aa49398e88151c1b526aad3cf
+pygithub==2.9.1 \
+    --hash=sha256:2ec78fca30092d51a42d76f4ddb02131b6f0c666a35dfdf364cf302cdda115b9 \
+    --hash=sha256:59771d7ff63d54d427be2e7d0dad2208dfffc2b0a045fec959263787739b611c
     # via -r requirements.in
 pyjwt==2.13.0 \
     --hash=sha256:41571c89ca91598c79e8ef18a2d07367d4810fbbd6f637794879baf1b7703423 \
